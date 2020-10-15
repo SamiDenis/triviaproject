@@ -1,0 +1,52 @@
+.headers{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    /* font-family: Epilogue, Arial, Helvetica, sans-serif; */
+    font-family; Pokemon Solid, Arial;
+    text-align: center;
+}
+
+.opening{
+    font-size: 30px;
+    text-align: center;
+}
+
+.quiz{
+    margin-bottom: 50px;
+    text-align: left;
+    font-size: 20px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    width: 40%;
+    font-size: 16px;
+    color: black;
+    font-family: Epilogue, Arial, Helvetica, sans-serif;
+}
+
+.optionsCorrect{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    width: 40%;
+    font-size: 16px;
+    color: black;
+    font-family: Epilogue, Arial, Helvetica, sans-serif;
+}
+
