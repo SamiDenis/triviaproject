@@ -2,31 +2,66 @@ body{
     background-image: url("https://external-preview.redd.it/ja2rwASy69ySlG3q_Brb8RhD7Sq2gzUEqSxxAbomVS8.png?auto=webp&s=d94d3cd074c7933031287abca2bcfc9735c1c8a6");
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .headers{
     color: black;
     font-size: 30px;
-    margin-bottom: 100px;
-    margin-left: 200px;
+    margin: auto;
+    padding-top: 150px;
     color: yellow;
     font-family: Cinzel, Arial, serif;
     text-align: center;
-   
+    text-shadow: 4px 4px #151E2F;
+    
+}
+.opening{
+    display: flex;
+    justify-content: center;
 }
 
-.opening{
+
+.start{
+    display: flex;
+    justify-content: center;
     font-size: 30px;
     text-align: center;
+    padding: 40px 40px;
+    margin-bottom: 30px;
+    align-items: center;
+    background-color: transparent;
+    font-family: Cinzel, Arial, serif;
+    color: wheat;
+    text-shadow: 4px 4px #5E4628;
+    
+    
+}
+
+.keepScore{
+    text-align: left;
+    font-size: 30px;
+    font-family: Lemonada, Arial, serif;
+    text-decoration: none;
+    color: #FFFF00;
+    font-weight: bold;
+    text-shadow: 4px 4px #5E4628;
+}
+
+.score{
+    margin: auto;
 }
 
 .quiz{
     margin-bottom: 50px;
     text-align: left;
     font-size: 20px;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-    color: brown;
+    font-family: Lemonada, Arial, serif;
+    text-decoration: none;
+    color: #FFFF00;
     font-weight: bold;
+    margin-top: 350px;
+    text-shadow: 4px 4px #5E4628;
     
     
 }
@@ -35,31 +70,81 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
-    border: 1px solid black;
+    border: 5px solid #9D6D7B;
     border-radius: 5px;
     padding: 20px 20px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
     text-decoration: none;
     width: 40%;
-    font-size: 16px;
+    font-size: 20px;
     color: black;
+    text-shadow: 1px 1px blue;
     background-color: transparent;
     font-family: Epilogue, Arial, Helvetica, sans-serif;
 }
 
 .optionsCorrect{
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     text-align: center;
-    border: 1px solid black;
+    border: 5px solid #9D6D7B;
     border-radius: 5px;
     padding: 20px 20px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
     text-decoration: none;
     width: 40%;
-    font-size: 16px;
+    font-size: 20px;
     color: black;
+    text-shadow: 1px 1px blue;
     background-color: transparent;
     font-family: Epilogue, Arial, Helvetica, sans-serif;
 }
 
+.one{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.one1{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    align-items: center;
+    background-color: transparent;
+    font-family: Cinzel, Arial, serif;
+    color: #E48170;
+    font-weight: bold;
+    text-shadow: 4px 4px #5E4628;
+}
+
+.winner{
+    color: black;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 200px;
+    padding-top: 150px;
+    color: yellow;
+    font-weight: bold;
+    font-family: Cinzel, Arial, serif;
+    text-align: center;
+    text-shadow: 4px 4px #151E2F;
+}
