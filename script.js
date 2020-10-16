@@ -5,14 +5,17 @@ let question = document.querySelector(".question");
 let answers = document.querySelector(".answers");
 // let button = document.querySelector(".submit");
 let options = document.querySelectorAll(".options");
-let optionsCorrect=document.querySelectorAll(".optionsCorrect");
+let optionsCorrect = document.querySelectorAll(".optionsCorrect");
+let score = document.querySelector(".js-score");
+let endGame = document.querySelector(".end");
+let lastPage = document.querySelector(".winner");
+let done = document.querySelector(".done");
 // let a = document.querySelector(".option1");
 // let b = document.querySelector(".option2");
 // let c = document.querySelector(".option3");
 // let d = document.querySelector(".option4");
 let finalResult = document.querySelector(".final")
 
-let one = document.querySelector(".one");
 
 // function animeQuiz(){
 //     // let output [];
@@ -232,37 +235,41 @@ let animeQuestions = [
 // for(let i=0; i < animeQuestions.length; i++) {
 // }  
 quiz.style.opacity = 0;
+let scoreAdded = score.innerText;
+scoreAdded = 0
 
 start.addEventListener("click", function () {
     // question.innerText= random.Question
 
     opening.style.display = "none"
     quiz.style.opacity = 100;
+
 })
 
 
 for (let i = 0; i < options.length; i++) {
     options[i].addEventListener("click", function (e) {
-        e.target.style.backgroundColor= "#E87F6C";
+        e.target.style.backgroundColor = "#E87F6C";
+
     })
 }
 
+lastPage.style.opacity = 0;
 
 for (let i = 0; i < optionsCorrect.length; i++) {
     optionsCorrect[i].addEventListener("click", function (e) {
-        e.target.style.backgroundColor= "#50653D";
+        e.target.style.backgroundColor = "#4CAF50";
+        scoreAdded += 10
+        score.innerText = scoreAdded
+        if (scoreAdded >= 100) {
+            endGame.addEventListener("click", function () {
+                quiz.style.display = "none"
+                done.style.opacity = 100;
+            })
+        }
     })
+
 }
-//}
-
-
-
-// let wrong = document.getElementsByClassName("wrong");
-// for (var i = 0; i < wrong.length; i++) {
-//     wrong[i].addEventListener('click', function (e) {
-//         e.target.style.backgroundColor = '#FF007C;
-//     })
-// }
 
 
 
@@ -277,19 +284,11 @@ for (let i = 0; i < optionsCorrect.length; i++) {
 
 
 
-//     animeQuestions[i].addEventListener("click", function (e) {
-//         e.preventDefault();
-//         let div = document.createElement("div");
-//         div.innerHTML = animeQuestions[i].answers;
-//         animeQuestions[i].appendChild(div);
-
-//         scoreAdded +=10
-//         score.innerText=scoreAdded
-//     })    
-
-// score applied for right answer only, when anything clicked, move to next slide
 
 
 
+
+
+// score applied for right answer only, when anything clicked, move to next slid
 //make all right answer the same class to make easier in css
 //make all wrong asnwer the same class

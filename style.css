@@ -1,11 +1,18 @@
+body{
+    background-image: url("https://external-preview.redd.it/ja2rwASy69ySlG3q_Brb8RhD7Sq2gzUEqSxxAbomVS8.png?auto=webp&s=d94d3cd074c7933031287abca2bcfc9735c1c8a6");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .headers{
     color: black;
     font-size: 30px;
     margin-bottom: 100px;
     margin-left: 200px;
-    /* font-family: Epilogue, Arial, Helvetica, sans-serif; */
-    font-family; Pokemon Solid, Arial;
+    color: yellow;
+    font-family: Cinzel, Arial, serif;
     text-align: center;
+   
 }
 
 .opening{
@@ -18,6 +25,10 @@
     text-align: left;
     font-size: 20px;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: brown;
+    font-weight: bold;
+    
+    
 }
 
 .options{
@@ -32,6 +43,7 @@
     width: 40%;
     font-size: 16px;
     color: black;
+    background-color: transparent;
     font-family: Epilogue, Arial, Helvetica, sans-serif;
 }
 
@@ -47,6 +59,7 @@
     width: 40%;
     font-size: 16px;
     color: black;
+    background-color: transparent;
     font-family: Epilogue, Arial, Helvetica, sans-serif;
 }
 
