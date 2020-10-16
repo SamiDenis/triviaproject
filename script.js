@@ -3,7 +3,6 @@ let opening = document.querySelector(".opening");
 let quiz = document.querySelector(".quiz");
 let question = document.querySelector(".question");
 let answers = document.querySelector(".answers");
-// let button = document.querySelector(".submit");
 let options = document.querySelectorAll(".options");
 let optionsCorrect = document.querySelectorAll(".optionsCorrect");
 let score = document.querySelector(".js-score");
@@ -20,7 +19,6 @@ let scoreAdded = score.innerText;
 scoreAdded = 0
 
 start.addEventListener("click", function () {
-    // question.innerText= random.Question
     
     opening.style.display = "none"
     quiz.style.opacity = 100;
