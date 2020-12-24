@@ -1,4 +1,7 @@
 # triviaproject
+
+Link to Game: https://samidenis.github.io/triviaproject/
+
 Self-scoring Trivia: made using HTML, CSS, JavaScript, DOM manipulation
 
 
